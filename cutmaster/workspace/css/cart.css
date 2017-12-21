@@ -1,0 +1,73 @@
+.panel-title p, .panel-body p, .panel-body span, .panel-footer p{
+   font-size:1.5rem;
+}
+
+.imgcart{
+   height:80px;
+   width:auto;
+   margin:10px;
+   margin-left:25px;
+}
+
+.product-name{
+   margin-top:20px;
+}
+
+span.oneprice{
+   font-size:1.2rem;
+}
+
+p.total{
+   margin-top:10px;
+}
+
+.btn-checkout{
+    background-color:#e65100;
+	color:white;
+}
+
+.btn-clear, .btn-renov{
+    margin:5px;
+}
+
+.modal-header{
+    font-size:3rem;
+}
+
+.checkform{
+    margin-left:5%;
+}
+
+.checkform div{
+    margin-top:15px;
+}
+
+.checkform input{
+    border-radius:3px;
+	padding:5px;
+}
+
+.fname input, .email input, .phone input{
+   width:70%;
+}
+
+@media only screen and (min-width:760px){
+   .email, .phone{
+       width:50%;
+   }
+   .email input, .phone input{
+       width:80%;
+   }
+   .email{
+       float:left;
+   }
+   .phone{
+       float:right;
+   }
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}

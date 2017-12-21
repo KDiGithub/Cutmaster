@@ -1,0 +1,11 @@
+.block{
+	border-bottom:3px solid white;
+	margin-bottom:15px;
+}
+
+.block img{
+	width:70%;
+	height:auto;
+	margin-left:15%;
+	margin-bottom:15px;
+}

@@ -1,0 +1,86 @@
+img{
+	margin-bottom:10px;
+}
+
+/*.price{
+	font-size:2.35rem;
+	vertical-align:middle;
+	padding:8px 0;
+	color:white;
+	background:#54a8fc url("../i/label-bg.png") repeat-x;
+	background-size:contain;
+}*/
+
+.btnprice {
+  font-size:2.35rem;
+  vertical-align:middle;
+  padding:10px;
+  color:white;
+  position: relative;
+  border:2px solid white;
+  background-color:#54a8fc;
+}
+
+.btnprice:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -40px;
+  border:20px solid;
+  border-color: transparent transparent transparent #54a8fc;
+}
+
+/*
+.price-left{
+
+	vertical-align:middle;
+	display:inline-block;
+	width:8px;
+	height:47px;
+	margin-bottom:1px;
+	background: url("../i/label-back.png") no-repeat;
+	background-size:cover;
+}
+.price-right{
+
+	vertical-align:middle;
+	display:inline-block;
+	width:24px;
+	height:47px;
+	margin-bottom:1px;
+	background:url("../i/label-arrow.png") no-repeat;
+	background-size:cover;
+}*/
+
+.galery{
+	margin-left:5px;
+	margin-bottom:10px;
+}
+
+.galery-img{
+	border:1px solid #eaeaea;
+	border-radius:5px;
+	height:60px;
+	width:60px;
+	margin:5px;
+	padding:0;
+}
+
+.galery-img img{
+	width:55px;
+	height:55px;
+	
+}
+
+.tag{
+	font-size:0.9rem;
+	background-color:white;
+	margin:2px;
+	padding:3px;
+}
+
+.galery .carousel img{
+	width:auto;
+	height:auto;
+	margin:auto;
+}

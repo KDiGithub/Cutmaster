@@ -1,0 +1,239 @@
+@media only screen and (min-width:760px){
+	/*.container{
+		width:75%;
+	}*/
+	.logo{
+		font-size:0.9rem;
+	}
+	.show-on-hover:hover > ul.dropdown-menu {
+		display: block;    
+	}
+	.dropdown-toggle.hover-drop{
+		display:inline-block;
+	}
+	.dropdown-toggle.mob-drop{
+		display:none;
+	}
+
+}
+
+@media only screen and (max-width:759px){
+	/*.container{
+		width:97%;
+	}*/
+	.logo{
+		font-size:0.7rem;
+	}
+	.dropdown-toggle.hover-drop{
+		display:none;
+	}
+	.dropdown-toggle.mob-drop{
+		display:inline-block;
+	}
+}
+
+html{font-size:12px;}
+
+body{
+	background:#fbfbfb url("../i/bg.jpg") repeat-x;
+	color:#303030;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header .container, footer .container{
+	width:95%;
+}
+
+/*Ссылки выше меню*/
+.tophead a, .tophead a:hover, .tophead a:active, .tophead a:visited{
+	color:#4f4f4f;
+	text-decoration: none;
+	font-weight:bold;
+	font-size:1.1rem;
+}
+
+/*Вставка лого*/
+
+.logo::before{
+	content:"";
+	display:block;
+	margin:auto;
+	height:50px; width:99%;
+	background:url("../i/logo.png") no-repeat center; 
+	background-size:contain;
+	margin-bottom:3px;
+}
+
+/*Оформление текстов выше меню*/
+.headspan{
+	font-weight:bold;
+	font-size:1.4rem;
+	margin-left:5px;
+}
+
+.tophead{
+	margin-top:10px;
+	margin-bottom:5px;
+	font-size:1.3rem;
+}
+
+.tophead div{
+	margin-bottom:5px;
+}
+
+/*Кнопка звонка*/
+.btn-call{
+	background-color:#2868a8;
+	color:white;
+	margin-top:5px;
+}
+
+.cartlink{
+   position:relative;
+}
+
+.cartlink i{
+	margin-top:10px;
+}
+
+.cartlink.fullcart i{
+    color: #2868a8;
+}
+
+.notcounter {   
+    position: absolute;
+	top:-15px;
+	left:20px;
+    background-color: #e65100;
+    color: #fff;
+    border-radius: 3px;
+    padding: 1px 3px;
+    font-size:0.8rem;
+}
+
+/*Меню пока с !important, попытаюсь исправить*/
+nav{
+	font-size:1.3rem;
+}
+
+nav a{
+	color:#303030 !important;
+}
+nav a:hover{
+	color:#2868a8 !important;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+  width:100%;
+}
+
+.dropdown-menu{
+	border-top:1px solid lightgrey !important;
+	border-bottom:1px solid lightgrey !important;
+	width:150%; /* */
+}
+
+.dropdown-menu div{
+   padding:10px; /* */
+}
+
+.kroshki{
+	margin-left:9.5%;
+	margin-bottom:10px;
+}
+
+/*отступы между блоками*/
+.news, .type-grid, .videos{
+	margin-bottom:35px;
+}
+
+/*блоки news*/
+.last-news-block {
+	margin-bottom:1%;
+	font-size:1.1rem;
+}
+
+.last-news-block h3{
+	text-align:center;
+	border-bottom:3px solid white;
+	margin:10px;
+	padding:5px;
+}
+
+.last-news-block a{
+	color:#303030;
+}
+.last-news-block a:hover{
+	color:#2868a8;
+	text-decoration: none;
+}
+
+.slide-news-block{
+	height:330px;
+	background:gray;
+}
+
+/*Блоки текстов*/
+.text-block {
+	background-color:#eaeaea;
+	border:1px solid #eaeaea;
+	border-radius:20px;
+	margin-bottom:5px;
+}
+
+h3{
+	margin:5px;
+	color:#2868a8;
+}
+
+h1{
+	font-size:2.4rem;
+	text-align:center;
+	margin-top:3px;
+	margin-bottom:20px;
+	color:#2868a8;
+}
+
+h2{
+	font-size:1.9rem;
+}
+
+p{
+	font-size:1.2rem;
+	line-height:1.6rem;
+}
+
+.texts .text-block{
+	padding:15px 5%;
+}
+
+a{
+	color:#25609b;
+}
+
+a:hover{
+	text-decoration:none;
+	color:#3286db;
+}
+
+/*footer*/
+footer .container{
+	margin-top:20px;
+	border-top:1px solid grey;
+	font-size:0.9rem;
+	color:grey;
+	padding:10px;
+}
